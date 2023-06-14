@@ -17,21 +17,4 @@ git clone --recurse-submodules -j8 <<< LINK_DO_ SEU_FORK >>>
 ```
 
 ## Comandos Básicos Git / GitHub
-Cria o repositório remoto:
 
-```
-git remote add <<< SEU_NOME >>> <<< LINK_DO_FORK >>>
-```
-
-Para salvar alterações no repositório local:
-
-```
-Git add . 
-Git commit -m “ <<< Alteração que fez >>> ”
-```
-
-A partir disso, para subir os *commits* para o repo remoto, basta utilizar:
-
-```
-git push <<< SEU_NOME >>> <<< NOME_DA_BRANCH >>>
-```
